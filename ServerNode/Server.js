@@ -58,6 +58,8 @@ io.on('connection', (socket) => {
             }
         }
 
+        io.emit('aggiorna', nomi)
+
 
 
     });
